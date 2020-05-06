@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; http://www.eightforums.com
+; Tutorial: http://www.eightforums.com/tutorials/21271-bitlocker-turn-off-os-drive-windows-8-a.html
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\FVE]
+"UseAdvancedStartup"=dword:00000001
+"EnableBDEWithNoTPM"=dword:00000001
+"UseTPM"=dword:00000002
+"UseTPMPIN"=dword:00000002
+"UseTPMKey"=dword:00000002
+"UseTPMKeyPIN"=dword:00000002
+
